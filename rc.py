@@ -72,7 +72,7 @@ try:
 		measured_data.append(value)
 		if value < 1: 
 				GPIO.output(troyka, 0)
-				k = False
+				k = False  #1
 	print("Конденсатор разрядился")
 	print("Строим график")
 	times.append(time.time())
